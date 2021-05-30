@@ -1,24 +1,18 @@
 <template>
   <div id="app">
-    <!-- <headerB /> -->
     <div class="header">
-       <div class="top-header">
+        <div class="top-header">
             <div class="buttons-navigations">
-
-                <input v-model="searchLine" type="text" class="goods-search" />
-
-                <button class="search-button"  type="button" @click="filterGoods">Искать</button>
-                <!-- <button class="cart-button" type="button">Корзина</button> -->
-                <!-- <button>3</button> -->
+                <input type="text" class="goods-search" v-model="searchLine" />
+                <button class="search-button" type="button" @click="filterGoods">Искать</button>      
             </div>
         </div>
+
         <div class="bottom-header">
             <button class="cart-button" type="button">Корзина</button>
         </div>
-      <!-- <input type="text" class="goods-search" />
-      <button class="search-button" type="button">Искать</button>
-      <button class="cart-button" type="button">Корзина</button> -->
     </div>
+    
     <main>
       Товары:
       <div class="goods-list">
