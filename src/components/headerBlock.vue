@@ -3,10 +3,7 @@
         <div class="top-header">
             <div class="buttons-navigations">
                 <input type="text" class="goods-search" />
-                <button class="search-button"  type="button">Искать</button>
-                <!-- <button class="cart-button" type="button">Корзина</button> -->
-                <!-- <button>3</button> -->
-                
+                <button class="search-button"  type="button">Искать</button>      
             </div>
         </div>
 
